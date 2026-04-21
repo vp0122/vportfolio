@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+
+        <link href="assets/css/fontawesome.min.css" rel="stylesheet" />
+        <link href="assets/css/brands.min.css" rel="stylesheet" />
+
+        <!--==================== FONT AWESOME ====================-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--==================== SWIPER CSS ====================-->
+        <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" /> -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Liam's Portfolio</title>
+
+        <!--==================== FAVICON ====================-->
+        <!-- <link rel="shortcut icon" type="image/jpg" href="assets/image/debugster.png"/> -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.jpg">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.jpg">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <!--==================== PAGE LOADING ANIMATION ====================-->
+        <div class="loader-wrapper">
+            <span class="loader">
+                <span class="loader-inner"></span>
+            </span>
+        </div>
+
+        <div id="main__content">
+            <!--==================== HEADER ====================-->
+            <header class="header" id="header">
+                <nav class="nav container">
+                    <a href="#" class="nav__logo">Liam</a>
+
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list grid">
+                            <li class="nav__item">
+                                <a href="#home" class="nav__link active-link">
+                                    <i class="uil uil-estate nav__icon"></i>
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">
+                                    <i class="uil uil-user nav__icon"></i>
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#skills" class="nav__link">
+                                    <i class="uil uil-file-alt nav__icon"></i>
+                                    Skills
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#career" class="nav__link">
+                                    <i class="uil uil-briefcase-alt nav__icon"></i>
+                                    Career
+                                </a>
+                            </li>
+
+                            <li class="nav__item hide__me">
+                                <a href="#posts" class="nav__link">
+                                    <i class="uil uil-briefcase-alt nav__icon"></i>
+                                    Posts
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#project" class="nav__link">
+                                    <i class="uil uil-scenery nav__icon"></i>
+                                    Projects
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link">
+                                    <i class="uil uil-message nav__icon"></i>
+                                    Contact Me
+                                </a>
+                            </li>
+                        </ul>
+                        <i class="uil uil-times nav__close" id="nav-close"></i>
+                    </div>
+
+                    <div class="nav__buttons">
+                        <!-- Theme Changer Button -->
+                        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class="uil uil-apps"></i>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <!--==================== MAIN ====================-->
+            <main class="main">
+                <!--==================== HOME ====================-->
+                <section class="section home" id="home">
+                    <div class="container home__container grid">
+                        <div class="home__content grid">
+                            <div class="home__social">
+                                <a href="https://x.com/SatoLiam00" class="home__social__icon" target="_blank">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+
+                                <a href="https://bsky.app/profile/gentliam.bsky.social" class="home__social__icon" target="_blank">
+                                    <i class="fa-brands fa-bluesky"></i>
+                                </a>
+
+                                <a href="https://discord.gg/cBmytgBg" class="home__social__icon" target="_blank">
+                                    <i class="fa-brands fa-discord"></i>
+                                </a>
+
+                                <a href="https://t.me/liam13333" class="home__social__icon" target="_blank">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+
+                                <a href="https://github.com/vp0122" class="home__social__icon" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="home__image">
+                                <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <mask id="mask0" mask-type="alpha">
+                                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    </mask>
+                                    <g mask="url(#mask0)">
+                                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                        <image height="220%" class="home__blob__image" x='-220' y='-60' xlink:href="assets/image/welcome-image.png"/>
+                                    </g>
+                                </svg>
+                            </div>
+
+                            <div class="home__data">
+                                <h1 class="home__title">Hi! I am Liam.</h1>
+                                <h3 class="home__subtitle">⌾ AI Engineer <br> ⌾ Backend Engineer</h3>
+                                <p class="home__description">
+                                    AI Engineer with a backend foundation, focused on building scalable systems, intelligent recommendations, and high-performance data-driven applications.
+                                </p>
+                                <a href="#contact" class="button button__flex">
+                                    Contact Me <i class="uil uil-message button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="home__scroll">
+                            <a href="#about " class="home__scroll__button button__flex">
+                                <i class="uil uil-mouse-alt home__scroll__mouse"></i>
+                                <span class="home__scroll__name">Scroll down</span>
+                                <i class="uil uil-arrow-down home__scroll__arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!--==================== ABOUT ====================-->
+                <section class="section about " id="about">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">My Introduction</span>
+
+                    <div class="container about__container">
+
+                        <div class="about__data">
+                            <p class="about__description">
+                                I’m Liam Sato, an AI Engineer with a strong background in backend development. I started my career building scalable microservices and high-performance systems for large-scale e-commerce platforms. Over time, I transitioned into AI, focusing on machine learning–driven solutions, including personalized recommendation systems and LLM-based applications.<br>
+                                I hold both BS and MS degrees from UCLA and currently work at GoImagine, where I develop scalable AI systems, real-time data pipelines, and intelligent solutions for millions of users.
+                            </p>
+        
+                            <div class="about__info">
+                                <div>
+                                    <span class="about__info__title">04+</span>
+                                    <span class="about__info__name">Years <br> of experience</span>
+                                </div>
+        
+                                <div>
+                                    <span class="about__info__title">02+</span>
+                                    <span class="about__info__name">Completed <br> projects</span>
+                                </div>
+        
+                                <div>
+                                    <span class="about__info__title">01</span>
+                                    <span class="about__info__name">Companies <br> worked in</span>
+                                </div>
+                            </div>
+
+                            <div class="about__buttons">
+                                <a download="" href="assets/pdf/CV-Liam_Sato.pdf" class="button button__flex">
+                                    Download CV <i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--==================== SKILLS ====================-->
+                <section class="section skills" id="skills">
+                    <h2 class="section__title">Skills</h2>
+                    <span class="section__subtitle">My Technical Abilities</span>
+                    <div class="container skills__container grid">
+
+                        <!--==================== SKILLS ROW 1 ====================-->
+                        <div>
+                            <!--==================== SKILL 1 ====================-->
+                            <div class="skills__content skills__close">
+                                <div class="skills__header">
+                                    <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                    <div>
+                                        <h1 class="skills__title">Languages</h1>
+                                        <span class="skills__subtitle">Programming/Markup Languages</span>
+                                    </div>
+
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="skills__list grid">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/html.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">HTML5</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/css.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">CSS3</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/javascript.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">JavaScript</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/typescript.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">TypeScript</h3>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/c.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">C</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/cpp.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">C++</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/csharp.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">C#</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/java.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Java</h3>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/python.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Python</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/languages/php.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">PHP</h3>
+                                                </div>
+                                            </td>
+
+                                            <td></td>
+
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!--==================== SKILL 2 ====================-->
+                            <div class="skills__content skills__close">
+                                <div class="skills__header">
+                                    <i class="uil uil-desktop skills__icon"></i>
+
+                                    <div>
+                                        <h1 class="skills__title">Operating Systems</h1>
+                                        <span class="skills__subtitle">Both PC &amp; Mobiles</span>
+                                    </div>
+
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="skills__list grid">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/os/windows.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Windows</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/os/ubuntu.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Ubuntu</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/os/android.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Android</h3>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                            <!--==================== SKILLS ROW 3 ====================-->
+                            <div>
+                                <!--==================== SKILL 1 ====================-->
+                                <div class="skills__content skills__close">
+                                    <div class="skills__header">
+                                        <i class="uil uil-setting skills__icon"></i>
+
+                                        <div>
+                                            <h1 class="skills__title">IDEs</h1>
+                                            <span class="skills__subtitle">Development Tools</span>
+                                        </div>
+
+                                        <i class="uil uil-angle-down skills__arrow"></i>
+                                    </div>
+
+                                    <div class="skills__list grid">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <div class="skills__item">
+                                                        <img src="assets/image/ide/vscode.png" alt="" class="skills__image">
+                                                        <h3 class="skills__name">VS Code</h3>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="skills__item">
+                                                        <img src="assets/image/ide/intellij-idea.png" alt="" class="skills__image">
+                                                        <h3 class="skills__name">IntelliJ</h3>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <div class="skills__item">
+                                                        <img src="assets/image/ide/webstorm.png" alt="" class="skills__image">
+                                                        <h3 class="skills__name">WebStorm</h3>
+                                                    </div>
+                                                </td>
+
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS ROW 2 ====================-->
+                        <div>
+                            <!--==================== SKILL 1 ====================-->
+                            <div class="skills__content skills__close">
+                                <div class="skills__header">
+                                    <!-- <i class="uil uil-brackets-curly skills__icon"></i> -->
+                                    <i class="fab fa-connectdevelop skills__icon"></i>
+
+                                    <div>
+                                        <h1 class="skills__title">Frameworks</h1>
+                                        <span class="skills__subtitle">Both Frontend &amp; Backend</span>
+                                    </div>
+
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="skills__list grid">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/frameworks/bootstrap.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Bootstrap</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/frameworks/jquery.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">jQuery</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/frameworks/nextjs.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Next.JS</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/frameworks/springboot.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Spring Boot</h3>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/frameworks/pytorch.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">PyTorch</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/frameworks/huggingface.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Huggingface<br>Transformers</h3>
+                                                </div>
+                                            </td>
+
+                                            <td></td>
+
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!--==================== SKILL 2 ====================-->
+                            <div class="skills__content skills__close">
+                                <div class="skills__header">
+                                    <i class="uil uil-server-connection skills__icon"></i>
+
+                                    <div>
+                                        <h1 class="skills__title">Database</h1>
+                                        <span class="skills__subtitle">Database Management</span>
+                                    </div>
+
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="skills__list grid">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/database/mysql.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">MySQL</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/database/oracle.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Oracle</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/database/mongodb.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">MongoDB</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/database/redis.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Redis</h3>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                            <!--==================== SKILL 2 ====================-->
+                            <div class="skills__content skills__close">
+                                <div class="skills__header">
+                                    <i class="uil uil-code-branch skills__icon"></i>
+
+                                    <div>
+                                        <h1 class="skills__title">VCS</h1>
+                                        <span class="skills__subtitle">Version Control Systems</span>
+                                    </div>
+
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="skills__list grid">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="skills__item">
+                                                    <img src="assets/image/vcs/git.png" alt="" class="skills__image">
+                                                    <h3 class="skills__name">Git</h3>
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                </div>
+                                            </td>
+
+                                            <td>
+                                                <div class="skills__item">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--==================== CAREER ====================-->
+                <section class="section career" id="career">
+                    <h2 class="section__title">Career</h2>
+                    <span class="section__subtitle">My Career Journey</span>
+
+                    <div class="container career__container">
+                        <div class="career__tabs">
+                            <div class="career__button button__flex">
+                                <i class="uil uil-briefcase-alt career__icon"></i>
+                                Work Experiences
+                            </div>
+
+                            <div class="career__button button__flex">
+                                <i class="uil uil-graduation-cap career__icon"></i>
+                                Education
+                            </div>
+                        </div>
+
+                        <div class="career__sections">
+                            <!--==================== CAREER CONTENT 1 ====================-->
+                            <div class="career__content career__active career__education" data-content>
+                                <!--==================== CAREER 1 ====================-->
+                                <div class="career__data">
+                                    <div>
+                                        <h3 class="career__title">AI Engineer</h3>
+                                        <span class="career__institute">GoImagine</span>
+                                        
+                                        <div>
+                                            <i class="uil uil-location-pin-alt"></i>
+                                            <span class="career__location">Worcester, Massachusetts(Remote)</span>
+                                        </div>
+                                        
+                                        <div class="career__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            <span class="career__year">2023 - 2026</span>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="career__rounder"></span>
+                                        <span class="career__line"></span>
+                                    </div>
+                                </div>
+
+                                <!--==================== CAREER 2 ====================-->
+                                <div class="career__data">
+                                    <div></div>
+
+                                    <div>
+                                        <span class="career__rounder"></span>
+                                        <span class="career__line"></span>
+                                    </div>
+                                    
+                                    <div>
+                                        <h3 class="career__title">University of California, Los Angeles</h3>
+                                        <span class="career__institute">MS Data Science</span>
+
+                                        <div>
+                                            <i class="uil uil-location-pin-alt"></i>
+                                            <span class="career__location">Los Angeles, California</span>
+                                        </div>
+
+                                        <div class="career__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            <span class="career__year">2021 - 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--==================== CAREER 3 ====================-->
+                                <div class="career__data">
+                                    <div>
+                                        <h3 class="career__title">Backend Engineer</h3>
+                                        <span class="career__institute">GoImagine</span>
+                                        
+                                        <div>
+                                            <i class="uil uil-location-pin-alt"></i>
+                                            <span class="career__location">Worcester, Massachusetts(Remote)</span>
+                                        </div>
+                                        
+                                        <div class="career__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            <span class="career__year">2020 - 2021</span>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="career__rounder"></span>
+                                        <span class="career__line"></span>
+                                    </div>
+                                </div>
+
+                                <!--==================== CAREER 4 ====================-->
+                                <div class="career__data">
+                                    
+                                    <div></div>
+
+                                    <div>
+                                        <span class="career__rounder"></span>
+                                    </div>
+                                    
+                                    <div>
+                                        <h3 class="career__title">University of California, Los Angeles</h3>
+                                        <span class="career__institute">BS Computer Science</span>
+
+                                        <div>
+                                            <i class="uil uil-location-pin-alt"></i>
+                                            <span class="career__location">Los Angeles, California</span>
+                                        </div>
+
+                                        <div class="career__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            <span class="career__year">2016 - 2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--==================== POSTS / BLOG ====================-->
+                <section class="section posts" id="posts">
+                    <h2 class="section__title">Blog Posts</h2>
+                    <span class="section__subtitle">Most recent blog posts</span>
+
+                    <div class="container posts__container swiper-container">
+                        <div class="swiper-wrapper">
+                            <!--==================== POST 1 ====================-->
+                            <div class="posts__content grid swiper-slide">
+                                <img src="assets/image/posts/RecGPT.jpg" alt="" class="posts__image">
+
+                                <div class="posts__data">
+                                    <h3 class="posts__title">RecGPT</h3>
+                                    <div class="posts__description">
+                                        <ul>
+                                            <li>
+                                                <i class="uil uil-document-info posts__li__icon"></i>
+                                                <span class="posts__list__item">Combination of LLM and State-of-the-art Recommendation System</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== POST 2 ====================-->
+                            <div class="posts__content grid swiper-slide">
+                                <img src="assets/image/posts/Java_TIP.jpg" alt="" class="posts__image">
+
+                                <div class="posts__data">
+                                    <h3 class="posts__title">Java TIP</h3>
+                                    <div class="posts__description">
+                                        <ul>
+                                            <li>
+                                                <i class="uil uil-document-info posts__li__icon"></i>
+                                                <span class="posts__list__item">One of the Java Tip Series</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <i class="uil uil-angle-right-b posts__swiper__icon"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="uil uil-angle-left-b posts__swiper__icon"></i>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+
+                <!--==================== PROJECTS ====================-->
+                <section class="section project" id="project">
+                    <h2 class="section__title">Projects</h2>
+                    <span class="section__subtitle">Most recent projects</span>
+
+                    <div class="container project__container swiper-container">
+                        <div class="swiper-wrapper">
+                            <!--==================== PROJECT 1 ====================-->
+                            <div class="project__content grid swiper-slide">
+                                <img src="assets/image/projects/GoImagine.jpg" alt="" class="project__image">
+
+                                <div class="project__data">
+                                    <h3 class="project__title">GoImagine</h3>
+                                    <p class="project__description">
+                                        goimagine is the handmade app where buyers can shop local to support makers and artists in their local area.
+                                    </p>
+                                    <a href="https://play.google.com/store/apps/details?id=com.goimagine.app&hl=en_SG" class="button button__flex button__small project__button" target="_blank">
+                                        Demo
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!--==================== PROJECT 2 ====================-->
+                            <div class="project__content grid swiper-slide">
+                                <img src="assets/image/projects/UnitConverter-Thumb.jpg" alt="" class="project__image">
+
+                                <div class="project__data">
+                                    <h3 class="project__title">Unit Converter</h3>
+                                    <p class="project__description">
+                                        An Android app to convert between units of various measurements.
+                                    </p>
+                                    <a href="https://www.amazon.com/Debugster-Unit-Converter/dp/B01A475IP0/" class="button button__flex button__small project__button" target="_blank">
+                                        Demo
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <i class="uil uil-angle-right-b project__swiper__icon"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="uil uil-angle-left-b project__swiper__icon"></i>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+
+                <!--==================== PROPOSAL IN MIND ====================-->
+                <section class="section proposal">
+                    <div class="proposal__bg">
+                        <div class="container proposal__container grid">
+                            <div class="proposal__data">
+                                <h2 class="proposal__title">New projects in your mind?</h2>
+                                <p class="proposal__description">
+                                    Don't be late. Contact me now to discuss about your projects.
+                                </p>
+                                <a href="#contact" class="button button__flex button__white">
+                                    Contact Me <i class="uil uil-message button__icon proposal__icon"></i>
+                                </a>
+                            </div>
+
+                            <img src="assets/image/proposal.png" alt="" class="proposal__image">
+                        </div>
+                    </div>
+                </section>
+
+                <!--==================== CONTACT ME ====================-->
+                <section class="section contact" id="contact">
+                    <h2 class="section__title">Contact Me</h2>
+                    <span class="section__subtitle">Get in touch</span>
+
+                    <div class="container contact__container grid">
+                        <div>
+                            <div class="contact__info">
+                                <i class="fa fa-phone-alt contact__icon"></i>
+
+                                <div>
+                                    <h3 class="contact__title">Call Me</h3>
+                                    <span class="contact__subtitle">+1 (205) 574-4899</span>
+                                </div>
+                            </div>
+
+                            <div class="contact__info">
+                                <i class="fa fa-envelope contact__icon"></i>
+
+                                <div>
+                                    <h3 class="contact__title">Email Me</h3>
+                                    <span class="contact__subtitle">liamsato00@gmail.com</span>
+                                </div>
+                            </div>
+
+                            <div class="contact__info">
+                                <i class="fa fa-map-marker-alt contact__icon"></i>
+
+                                <div>
+                                    <h3 class="contact__title">Location</h3>
+                                    <span class="contact__subtitle">Alhambra, California</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form accept="#" method="POST" class="contact__form grid">
+                            <div class="contact__inputs grid">
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Name</label>
+                                    <input type="text" id="sender__name" class="contact__input">
+                                </div>
+
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Email</label>
+                                    <input type="email" id="sender__email" class="contact__input">
+                                </div>
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Message</label>
+                                <textarea name="" id="sender__message" cols="0" rows="7" class="contact__input"></textarea>
+                            </div>
+
+                            <div class="contact__content" id="contact__form__error">
+                                <div class="contact__input">
+                                    <p class="contact__form__error__text">
+                                        <i class="uil uil-times-circle"></i>
+                                        Please, fill up the inputs correctly.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <a href="#contact" id="contact__form__submit__button" class="button button__flex">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </a>
+                            </div>
+                        </form>
+
+                        <!--==================== EMAIL SENDING MODAL ====================-->
+                        <div id="email__modal__sending" class="email__modal hidden__modal">
+                            <div class="email__modal__content">
+                                <h4 class="email__modal__title">Hello, <span class="email__modal__sender__name"></span></h4>
+                                <!-- <i class="uil uil-times email__modal__close"></i> -->
+
+                                <ul class="email__modal__list grid">
+                                    <li class="email__modal__text">
+                                        <!-- <i class="uil uil-check-circle email__modal__icon__success"></i> -->
+                                        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                                        <p id="email__modal__text__sending">Your message is being sent...</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!--==================== EMAIL SUCCESS MODAL ====================-->
+                        <div id="email__modal__success" class="email__modal hidden__modal">
+                            <div class="email__modal__content">
+                                <h4 class="email__modal__title">Hello, <span class="email__modal__sender__name"></span></h4>
+                                <i class="uil uil-times email__modal__close"></i>
+
+                                <ul class="email__modal__list grid">
+                                    <li class="email__modal__text">
+                                        <i class="uil uil-check-circle email__modal__icon__success"></i>
+                                        <p>Your message has been sent successfully. Thank you for contacting me.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!--==================== EMAIL FAILED MODAL ====================-->
+                        <div id="email__modal__failed" class="email__modal hidden__modal">
+                            <div class="email__modal__content">
+                                <h4 class="email__modal__title">Hello, <span class="email__modal__sender__name"></span></h4>
+                                <i class="uil uil-times email__modal__close"></i>
+
+                                <ul class="email__modal__list grid">
+                                    <li class="email__modal__text">
+                                        <i class="uil uil-times-circle email__modal__icon__failed"></i>
+                                        <p>Sorry! Your message couldn't be sent. Please, try again later.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!--==================== FOOTER ====================-->
+            <footer class="footer">
+                <div class="footer__bg">
+                    <div class="container footer__container grid">
+                        <div>
+                            <h1 class="footer__title">Liam</h1>
+                            <span class="footer__subtitle">AI Engineer<br>Backend Engineer</span>
+                        </div>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#achievements" class="footer__link">Achievements</a>
+                            </li>
+
+                            <li>
+                                <a href="#contact" class="footer__link">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="footer__socials">
+                            <a href="https://x.com/SatoLiam00" class="footer__social" target="_blank">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+
+                            <a href="https://bsky.app/profile/gentliam.bsky.social" class="footer__social" target="_blank">
+                                <i class="fa-brands fa-bluesky"></i>
+                            </a>
+
+                            <a href="https://discord.gg/cBmytgBg" class="footer__social" target="_blank">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+
+                            <a href="https://t.me/liam13333" class="footer__social" target="_blank">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+
+                            <a href="https://github.com/vp0122" class="footer__social" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <p class="footer__copy">
+                        &copy; Liam. All rights reserved.
+                    </p>
+                </div>
+            </footer>
+
+            <!--==================== SCROLL TOP ====================-->
+            <a href="#" class="scroll__up" id="scroll-up">
+                <i class="uil uil-arrow-up scroll__up__icon"></i>
+            </a>
+        </div>
+
+        <!--==================== JQUERY ====================-->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+        <!--==================== UNICONS ====================-->
+        <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+
+        <!--==================== FONT AWESOME ====================-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!--==================== SWIPER JS ====================-->
+        <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+        <!-- <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script> -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== SMTP JS ====================-->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
